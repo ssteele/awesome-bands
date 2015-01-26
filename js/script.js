@@ -34,13 +34,26 @@
 
 
   /**
+   * HTML markup template
+   * @param  {object} obj    Ranked object meta
+   */
+  Ranker.prototype.template = function(obj) {
+    markup = '';
+    markup += '<div class="ranking-row">';
+    markup +=   '<div class="name">' + obj.name + '</div>';
+    markup +=   '<div class="mentions">' + obj.count + '</div>';
+    markup += '</div>';
+    this.container.append(markup);
+  };
+
+
+  /**
    * Render ranked results
    */
   Ranker.prototype.render = function() {
     this.container.html('');
     for (var i=0; i<this.rankings.length; i++) {
-      var obj = this.rankings[i];
-      this.container.append(obj.name + ' ' + obj.count + '<br />');
+      this.template(this.rankings[i]);
     }
   };
 

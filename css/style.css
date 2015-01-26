@@ -1,0 +1,78 @@
+html {
+  font-size:16px;
+}
+
+body {
+  background:#2a272c url('../img/bg.png');
+}
+
+img {
+  width:100%;
+}
+
+.widget-container {
+  margin:5% auto;
+  width:600px;
+}
+
+.rankings-container {
+  border:5px solid #d0cfcf;
+  border-radius:25px;
+  background:rgb(29, 29, 29);
+  background:rgba(29, 29, 29, 0.9);
+  margin:25px auto 0;
+  width:75%;
+}
+
+.ranking-row {
+  border-bottom:1px solid #404040;
+  width:100%;
+}
+
+.ranking-row:last-child {
+  border-bottom:none;
+}
+
+.ranking-row::after {
+  clear:both;
+  content:"";
+  display:table;
+}
+
+.ranking-row div {
+  font:bold 1.15rem Helvetica, sans-serif;
+  padding:29px 30px;
+}
+
+.name {
+  color:#fff;
+  float:left;
+}
+
+.mentions {
+  color:#9e0b0f;
+  float:right;
+}
+
+.mentions::after {
+  color:#fff;
+  content:" Mentions";
+  font-size:0.7rem;
+  font-weight:lighter;
+}
+
+@media screen and (max-width: 600px) {
+
+  html {
+    font-size:13px;
+  }
+
+  .widget-container {
+    width:100%;
+  }
+
+  .rankings-container {
+    width:90%;
+  }
+
+}
