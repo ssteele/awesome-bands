@@ -1,18 +1,4 @@
-# Coding Exercise
-
-## Introduction
-
-This exercise is intended to gauge your level of front-end coding experience (HTML, CSS & JavaScript).
-
-You should budget about an hour of actual coding time to complete the project. We realize that's a tight constraint, but we're trying to be respectful of your time while still allowing you to produce enough code for us to make a fair assessment of your skills. Try to ensure that the finished product represents your coding abilities, although you're not necessarily expected to fully finish in an hour. We'd much rather review high-quality but incomplete work rather than rushed, but complete work.
-
-We've created a few starter files that you should flesh out:
-
-* [index.html](index.html)
-* [style.css](css/style.css)
-* [script.js](js/script.js)
-
-and a [PSD](AwesomeBands.psd) to use as a mockup.
+# Awesome Bands
 
 ## Requirements
 
@@ -27,3 +13,11 @@ The leaderboard that you build should satisfy these basic requirements:
 * Visually adhere to the provided [PSD](AwesomeBands.psd).
 * Every 15 seconds, update the leaderboard to show the latest band names and counts, sorted descending by count.
 * **Bonus:** Animate the leaderboard update in some way (fade/dissolve, sliding, etc.).
+
+We've created a few starter files that you should flesh out:
+
+* [index.html](index.html)
+* [style.css](css/style.css)
+* [script.js](js/script.js)
+
+and a [PSD](AwesomeBands.psd) to use as a mockup.
