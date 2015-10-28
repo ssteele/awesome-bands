@@ -1,6 +1,6 @@
-# Awesome Bands
+##Awesome Bands
 
-## Requirements
+###Requirements
 
 You will be building an "Awesome Bands" leaderboard, which is a list of the top five awesome band names paired with the number of times that those bands have been mentioned on Twitter.
 
